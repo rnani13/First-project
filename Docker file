@@ -11,4 +11,4 @@ COPY . /First-project1
 RUN pip install --no-cache-dir -r Requirements.txt
 
 # Run app.py when the container launches
-CMD ["python", "simple python code.py"]
+CMD ["python", "app.py"]
